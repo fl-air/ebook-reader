@@ -10,4 +10,8 @@
 ### 🏠 [Homepage](http://45.119.146.248:3000/)
 
 ## Structure
-### Fron
+### Frontend
+```
+./
+├── public/                   # 정적 문서 
+└── src/    
