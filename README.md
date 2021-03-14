@@ -21,4 +21,5 @@
     |   ├── context/          # 컨텍스트 컴포넌트     
     |   └── filter/           # 필터 컴포넌트     
     ├── graphql/              # gql 관련 파일
-    ├── r
+    ├── routes/               # 라우트 컴포넌
+    ├── stylesheet/           # 
