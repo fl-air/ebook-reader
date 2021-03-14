@@ -15,4 +15,6 @@
 ./
 ├── public/                   # 정적 문서 
 └── src/                      # 소스 파일
-    ├── apollo/               # 아폴로 설정 
+    ├── apollo/               # 아폴로 설정 파
+    ├── asset/                # 어셋 파일 
+    ├── components/   
