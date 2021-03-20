@@ -24,4 +24,5 @@
     ├── routes/               # 라우트 컴포넌
     ├── stylesheet/           # 스타일 시트
     ├── test/                 # 테스트 파일
-    ├── utils/
+    ├── utils/                # 커스텀 유틸리티 파일
+    ├── App.js  
