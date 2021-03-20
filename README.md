@@ -22,4 +22,6 @@
     |   └── filter/           # 필터 컴포넌트     
     ├── graphql/              # gql 관련 파일
     ├── routes/               # 라우트 컴포넌
-    ├── stylesheet/           # 
+    ├── stylesheet/           # 스타일 시트
+    ├── test/                 # 테스트 파일
+    ├── utils/
