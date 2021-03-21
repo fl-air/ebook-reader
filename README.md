@@ -25,4 +25,5 @@
     ├── stylesheet/           # 스타일 시트
     ├── test/                 # 테스트 파일
     ├── utils/                # 커스텀 유틸리티 파일
-    ├── App.js  
+    ├── App.js                # 최상위 컴포넌트
+    ├── index.js              # 엔트리 
