@@ -26,4 +26,8 @@
     ├── test/                 # 테스트 파일
     ├── utils/                # 커스텀 유틸리티 파일
     ├── App.js                # 최상위 컴포넌트
-    ├── index.js              # 엔트리 
+    ├── index.js              # 엔트리 포인트
+    └── serviceWorker.js      # 뭔지 모르겠음 
+```
+
+#
