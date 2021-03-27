@@ -30,4 +30,8 @@
     └── serviceWorker.js      # 뭔지 모르겠음 
 ```
 
-#
+### Backend
+```
+./
+├── config/                   # 각종 환경설정 파일들
+├
