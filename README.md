@@ -35,4 +35,5 @@
 ./
 ├── config/                   # 각종 환경설정 파일들
 ├── cors/                     # CORS 관련 설정 파일
-├── database
+├── databases/                # 데이터베이스 관련 파일
+|   ├── DDL/                  # D
