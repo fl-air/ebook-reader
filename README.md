@@ -37,4 +37,6 @@
 ├── cors/                     # CORS 관련 설정 파일
 ├── databases/                # 데이터베이스 관련 파일
 |   ├── DDL/                  # DDL    
-|   ├── migrations/           # 마이그레이션 파일들 (sequ
+|   ├── migrations/           # 마이그레이션 파일들 (sequelize-cli)
+|   ├── models/               # 모델 파일들 (sequelize-cli)
+|   ├── s
