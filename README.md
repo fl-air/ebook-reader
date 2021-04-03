@@ -39,4 +39,4 @@
 |   ├── DDL/                  # DDL    
 |   ├── migrations/           # 마이그레이션 파일들 (sequelize-cli)
 |   ├── models/               # 모델 파일들 (sequelize-cli)
-|   ├── s
+|   ├── seeders/              # 시더 파일들 (sequelize-cli) 
