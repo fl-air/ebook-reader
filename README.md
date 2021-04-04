@@ -42,4 +42,5 @@
 |   ├── seeders/              # 시더 파일들 (sequelize-cli)    
 |   ├── SQL/                  # SQL
 |   └── index.js              # DB API 엔트리 포인트
-├──
+├── graphql/                  # graphQL 관련 폴더
+|   ├── resolvers.j
