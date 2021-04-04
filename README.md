@@ -41,4 +41,5 @@
 |   ├── models/               # 모델 파일들 (sequelize-cli)
 |   ├── seeders/              # 시더 파일들 (sequelize-cli)    
 |   ├── SQL/                  # SQL
-|   └── inde
+|   └── index.js              # DB API 엔트리 포인트
+├──
