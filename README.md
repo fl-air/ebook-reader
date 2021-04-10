@@ -45,4 +45,5 @@
 ├── graphql/                  # graphQL 관련 폴더
 |   ├── resolvers.js          # resolver
 |   └── schema.graphql        # schema
-├──
+├── middlewares/              # 커스텀 미들웨어
+├── public/  
