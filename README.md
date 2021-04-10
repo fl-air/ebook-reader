@@ -46,4 +46,5 @@
 |   ├── resolvers.js          # resolver
 |   └── schema.graphql        # schema
 ├── middlewares/              # 커스텀 미들웨어
-├── public/  
+├── public/                   # 정적 문서
+|   └── index.html/       
