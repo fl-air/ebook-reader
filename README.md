@@ -48,4 +48,5 @@
 ├── middlewares/              # 커스텀 미들웨어
 ├── public/                   # 정적 문서
 |   └── index.html/           # 로그인 및 인증 테스트용 정적 html
-├── .env              
+├── .env                      # 설정 파일
+├── .sequelizerc              # sequelize-c
