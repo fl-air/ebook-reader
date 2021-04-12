@@ -49,4 +49,5 @@
 ├── public/                   # 정적 문서
 |   └── index.html/           # 로그인 및 인증 테스트용 정적 html
 ├── .env                      # 설정 파일
-├── .sequelizerc              # sequelize-c
+├── .sequelizerc              # sequelize-cli용 환경설정 파일
+└── index.js                  # API 서버 엔트리
