@@ -57,4 +57,8 @@
 [feature list - HackMD](https://hackmd.io/bSY4wOW-S6ejEMXs3I_nZg?both)
 
 ## Design
-![ERD](./
+![ERD](./airbnb_20191015_38_32.png)
+
+## Skill & Dependency
+### Backend
+- Node
