@@ -54,4 +54,7 @@
 ```
 
 ## Feature List
-[feature list - HackMD](ht
+[feature list - HackMD](https://hackmd.io/bSY4wOW-S6ejEMXs3I_nZg?both)
+
+## Design
+![ERD](./
