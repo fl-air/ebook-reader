@@ -62,3 +62,9 @@
 ## Skill & Dependency
 ### Backend
 - Node
+- Express
+- graphQL
+- graphQL-yoga
+- mysql2
+- sequelize
+-
