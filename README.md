@@ -72,4 +72,10 @@
 - dotenv
 - nodemon
 - passport
-- jsonweb
+- jsonwebtoken
+
+### Frontend
+- react
+- apollo
+- bootstrap
+- materi
