@@ -67,4 +67,9 @@
 - graphQL-yoga
 - mysql2
 - sequelize
--
+- sequelize-cli
+- cors
+- dotenv
+- nodemon
+- passport
+- jsonweb
