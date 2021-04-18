@@ -78,4 +78,11 @@
 - react
 - apollo
 - bootstrap
-- materi
+- material ui
+- fontawesome
+
+## Install
+
+```sh
+npm run start
+```
