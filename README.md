@@ -101,4 +101,8 @@ yarn start
 
 ## Author
 
-👤 **Ei
+👤 **Einere**
+
+* Github: [@Einere](https://github.com/Einere)
+
+#
