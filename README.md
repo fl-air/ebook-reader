@@ -105,4 +105,6 @@ yarn start
 
 * Github: [@Einere](https://github.com/Einere)
 
-#
+## 🤝 Contributing
+
+Contributions, issues and feature re
