@@ -94,4 +94,11 @@ project/back
 yarn start
 ```
 
-proje
+project/front
+```sh
+yarn start
+```
+
+## Author
+
+👤 **Ei
