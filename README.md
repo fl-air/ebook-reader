@@ -107,4 +107,4 @@ yarn start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature re
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issue
