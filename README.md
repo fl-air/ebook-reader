@@ -107,4 +107,6 @@ yarn start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issue
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Einere/membership-airbnb/issues).
+
+## Show
