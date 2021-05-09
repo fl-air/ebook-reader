@@ -4,4 +4,4 @@ import {userModel} from "./models/userModel";
 import {roomModel} from "./models/roomModel";
 import {reservationModel} from "./models/reservationModel";
 
-const
+const sequelize = new Sequelize(process.env.DB_DATAB
