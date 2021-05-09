@@ -70,3 +70,4 @@ CREATE TABLE Options
 );
 
 ALTER TABLE Options
+    COMMENT 'Options';
