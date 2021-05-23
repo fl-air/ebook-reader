@@ -14,4 +14,7 @@ const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USER, pr
         acquire: 30000,
         idle: 10000
     },
-    // if table is already exi
+    // if table is already exist, drop the table...
+    sync: {
+        force: false
+    
