@@ -10,4 +10,6 @@ const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USER, pr
     port: process.env.DB_PORT,
     pool: {
         max: 5,
- 
+        min: 0,
+        acquire: 30000,
+        
