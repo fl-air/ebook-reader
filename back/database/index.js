@@ -17,4 +17,8 @@ const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USER, pr
     // if table is already exist, drop the table...
     sync: {
         force: false
-    
+    }
+});
+
+sequelize.authenticate()
+    .then(() => console.log(
