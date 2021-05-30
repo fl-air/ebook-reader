@@ -22,4 +22,8 @@ const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USER, pr
 
 sequelize.authenticate()
     .then(() => console.log('connection success!'))
-    .catch((e) => console.erro
+    .catch((e) => console.error(e));
+
+const db = {
+    Sequelize,
+    User: user
