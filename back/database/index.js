@@ -27,4 +27,5 @@ sequelize.authenticate()
 const db = {
     Sequelize,
     User: userModel(sequelize, DataTypes),
-    Room: roomModel(sequeli
+    Room: roomModel(sequelize, DataTypes),
+    Reservation: reservationModel(sequelize, DataT
