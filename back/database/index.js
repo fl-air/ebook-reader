@@ -28,4 +28,8 @@ const db = {
     Sequelize,
     User: userModel(sequelize, DataTypes),
     Room: roomModel(sequelize, DataTypes),
-    Reservation: reservationModel(sequelize, DataT
+    Reservation: reservationModel(sequelize, DataTypes)
+};
+
+db.User.hasMany(db.Room);
+db.Room.belongsTo(db.User,
