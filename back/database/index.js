@@ -33,4 +33,5 @@ const db = {
 
 db.User.hasMany(db.Room);
 db.Room.belongsTo(db.User, {foreignKey: 'host', onDelete: 'CASCADE'});
-db.R
+db.Room.hasMany(db.Reservation);
+db.Reservation.belongsTo(db.Room, {foreignKe
