@@ -35,4 +35,5 @@ db.User.hasMany(db.Room);
 db.Room.belongsTo(db.User, {foreignKey: 'host', onDelete: 'CASCADE'});
 db.Room.hasMany(db.Reservation);
 db.Reservation.belongsTo(db.Room, {foreignKey: 'reservationRoomId'});
-db.User.hasMany(db.Reserv
+db.User.hasMany(db.Reservation);
+db.Reservation.belongsTo(db.User, {foreignKey: 'guest'
