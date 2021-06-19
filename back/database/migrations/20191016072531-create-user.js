@@ -1,2 +1,4 @@
 'use strict';
-module.expor
+module.exports = {
+    up: (queryInterface, Sequelize) => {
+  
