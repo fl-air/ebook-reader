@@ -5,4 +5,5 @@ module.exports = {
             id: {
                 allowNull: false,
                 autoIncrement: true,
-                p
+                primaryKey: true,
+                type: Sequeliz
