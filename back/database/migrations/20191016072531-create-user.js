@@ -6,4 +6,7 @@ module.exports = {
                 allowNull: false,
                 autoIncrement: true,
                 primaryKey: true,
-                type: Sequeliz
+                type: Sequelize.INTEGER
+            },
+            allowNull: false,
+        
