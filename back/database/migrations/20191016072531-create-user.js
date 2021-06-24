@@ -11,4 +11,6 @@ module.exports = {
             allowNull: false,
             name: {
                 allowNull: false,
-               
+                type: Sequelize.STRING
+            },
+            pass
