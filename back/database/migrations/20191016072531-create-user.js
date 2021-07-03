@@ -20,4 +20,6 @@ module.exports = {
         });
     },
     down: (queryInterface, Sequelize) => {
-        return queryInterfac
+        return queryInterface.dropTable('Users');
+    }
+};
