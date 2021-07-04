@@ -1,4 +1,6 @@
 'use strict';
 module.exports = {
     up: (queryInterface, Sequelize) => {
-        ret
+        return queryInterface.createTable('Rooms', {
+            id: {
+   
