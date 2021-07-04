@@ -6,4 +6,7 @@ module.exports = {
                 allowNull: false,
                 autoIncrement: true,
                 primaryKey: true,
-                type: Sequelize.IN
+                type: Sequelize.INTEGER
+            },
+            image: {
+    
