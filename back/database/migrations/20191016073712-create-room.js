@@ -20,3 +20,5 @@ module.exports = {
                 type: Sequelize.STRING
             },
             location: {
+                allowNull: false,
+                type: Seque
