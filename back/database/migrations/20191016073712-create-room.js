@@ -15,4 +15,6 @@ module.exports = {
                 allowNull: false,
                 type: Sequelize.INTEGER
             },
-         
+            title: {
+                allowNull: false,
+       
