@@ -28,4 +28,5 @@ module.exports = {
                 type: Sequelize.INTEGER
             },
             capacity: {
-         
+                allowNull: false,
+                type: Sequ
