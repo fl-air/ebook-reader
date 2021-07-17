@@ -25,4 +25,7 @@ module.exports = {
             },
             price: {
                 allowNull: false,
-                type: Seque
+                type: Sequelize.INTEGER
+            },
+            capacity: {
+         
