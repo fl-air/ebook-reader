@@ -29,4 +29,7 @@ module.exports = {
             },
             capacity: {
                 allowNull: false,
-                type: Sequ
+                type: Sequelize.INTEGER
+            },
+            showerRoom: {
+        
