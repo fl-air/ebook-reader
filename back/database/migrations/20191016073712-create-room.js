@@ -33,4 +33,7 @@ module.exports = {
             },
             showerRoom: {
                 allowNull: false,
-                type: Sequelize
+                type: Sequelize.INTEGER
+            },
+            options: {
+      
