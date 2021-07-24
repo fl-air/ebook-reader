@@ -36,4 +36,6 @@ module.exports = {
                 type: Sequelize.INTEGER
             },
             options: {
-      
+                type: Sequelize.INTEGER
+            }
+       
