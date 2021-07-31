@@ -38,4 +38,6 @@ module.exports = {
             options: {
                 type: Sequelize.INTEGER
             }
-       
+        });
+    },
+    down: (queryInterface, Sequelize) =
