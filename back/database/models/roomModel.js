@@ -1,4 +1,6 @@
 function roomModel(sequelize, DataTypes) {
     return sequelize.define('Room', {
         image: {
-            type: Da
+            type: DataTypes.STRING,
+            allowNull: true,
+       
