@@ -15,3 +15,32 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
         },
         location: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        price: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+        capacity: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+        showerRoom: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+        options: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+    }, {
+        timestamps: false,
+        createdAt: false,
+        updatedAt: false
+    });
+    Room.associate = function (models) {
+        // associations can be defined here
+    };
+    return Room;
+};
