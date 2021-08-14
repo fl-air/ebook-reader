@@ -3,4 +3,6 @@ function roomModel(sequelize, DataTypes) {
         image: {
             type: DataTypes.STRING,
             allowNull: true,
-       
+        },
+        type: {
+            type: DataTypes.INTEG
