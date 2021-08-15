@@ -8,4 +8,6 @@ function roomModel(sequelize, DataTypes) {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        title: 
+        title: {
+            type: DataTypes.STRING,
+            allowNull: false,
