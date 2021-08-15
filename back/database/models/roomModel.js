@@ -5,4 +5,7 @@ function roomModel(sequelize, DataTypes) {
             allowNull: true,
         },
         type: {
-            type: DataTypes.INTEG
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+        title: 
