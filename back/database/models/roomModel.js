@@ -11,3 +11,6 @@ function roomModel(sequelize, DataTypes) {
         title: {
             type: DataTypes.STRING,
             allowNull: false,
+        },
+        location: {
+            type: DataTypes.
