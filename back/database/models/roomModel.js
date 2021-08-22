@@ -20,4 +20,6 @@ function roomModel(sequelize, DataTypes) {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        capacity:
+        capacity: {
+            type: DataTypes.INTEGER,
+            all
