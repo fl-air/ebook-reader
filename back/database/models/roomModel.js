@@ -18,4 +18,6 @@ function roomModel(sequelize, DataTypes) {
         },
         price: {
             type: DataTypes.INTEGER,
- 
+            allowNull: false,
+        },
+        capacity:
