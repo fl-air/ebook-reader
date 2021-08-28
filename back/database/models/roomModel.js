@@ -33,4 +33,6 @@ function roomModel(sequelize, DataTypes) {
             allowNull: true,
         },
     }, {
-        ti
+        timestamps: false,
+        createdAt: false,
+        updat
