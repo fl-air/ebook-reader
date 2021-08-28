@@ -25,4 +25,5 @@ function roomModel(sequelize, DataTypes) {
             allowNull: false,
         },
         showerRoom: {
-        
+            type: DataTypes.INTEGER,
+            allowNull: 
