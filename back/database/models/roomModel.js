@@ -30,3 +30,7 @@ function roomModel(sequelize, DataTypes) {
         },
         options: {
             type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+    }, {
+        ti
