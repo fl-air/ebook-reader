@@ -35,4 +35,8 @@ function roomModel(sequelize, DataTypes) {
     }, {
         timestamps: false,
         createdAt: false,
-        updat
+        updatedAt: false
+    });
+}
+
+export {roomModel};
