@@ -1,3 +1,5 @@
 'use strict';
 
-const 
+const rooms = require('./rooms.json');
+
+module.exports = 
