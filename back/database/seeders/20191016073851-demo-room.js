@@ -2,4 +2,6 @@
 
 const rooms = require('./rooms.json');
 
-module.exports = 
+module.exports = {
+    up: (queryInterface, Sequelize) => {
+       
