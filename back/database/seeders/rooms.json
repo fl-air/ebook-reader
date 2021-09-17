@@ -5,4 +5,8 @@
     "title": "title1",
     "location": "location1",
     "price": 100000,
-    "capacity
+    "capacity": 1,
+    "showerRoom": 1,
+    "options": 1
+  },
+  
