@@ -25,4 +25,7 @@
     "title": "title3",
     "location": "location3",
     "price": 300000,
-    
+    "capacity": 3,
+    "showerRoom": 3,
+    "options": 4
+ 
