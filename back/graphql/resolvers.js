@@ -7,4 +7,5 @@ const resolvers = {
             getUsers: () => db.User.findAll(),
             getUserById: (_, {id}) => db.User.findByPk(id),
             getRooms: () => db.Room.findAll(),
-            getRoomB
+            getRoomById: (_, {id}) => db.Room.findByPk(id),
+            getReservations: 
