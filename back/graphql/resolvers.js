@@ -6,4 +6,5 @@ const resolvers = {
         Query: {
             getUsers: () => db.User.findAll(),
             getUserById: (_, {id}) => db.User.findByPk(id),
- 
+            getRooms: () => db.Room.findAll(),
+            getRoomB
