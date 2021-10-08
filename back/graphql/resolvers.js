@@ -9,4 +9,5 @@ const resolvers = {
             getRooms: () => db.Room.findAll(),
             getRoomById: (_, {id}) => db.Room.findByPk(id),
             getReservations: () => db.Reservation.findAll(),
-            getReservationById: (_, {id}) => db.Reservation.fi
+            getReservationById: (_, {id}) => db.Reservation.findByPk(id),
+            getAvailableRoomsByDate: async (_
