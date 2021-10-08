@@ -11,4 +11,5 @@ const resolvers = {
             getReservations: () => db.Reservation.findAll(),
             getReservationById: (_, {id}) => db.Reservation.findByPk(id),
             getAvailableRoomsByDate: async (_, {checkIn, checkOut}) => {
-                const checkInDate = n
+                const checkInDate = new Date(checkIn);
+                const checkOutDate = new D
