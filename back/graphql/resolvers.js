@@ -13,4 +13,6 @@ const resolvers = {
             getAvailableRoomsByDate: async (_, {checkIn, checkOut}) => {
                 const checkInDate = new Date(checkIn);
                 const checkOutDate = new Date(checkOut);
-                const rows = await db.Res
+                const rows = await db.Reservation.findAll({
+                    attributes: ['id'],
+   
