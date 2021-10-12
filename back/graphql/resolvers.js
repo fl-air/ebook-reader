@@ -18,4 +18,5 @@ const resolvers = {
                     where: {
                         [and]: [
                             {
-           
+                                [or]: [
+                                    
