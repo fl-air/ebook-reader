@@ -16,4 +16,6 @@ const resolvers = {
                 const rows = await db.Reservation.findAll({
                     attributes: ['id'],
                     where: {
-                     
+                        [and]: [
+                            {
+           
