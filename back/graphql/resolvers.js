@@ -12,4 +12,5 @@ const resolvers = {
             getReservationById: (_, {id}) => db.Reservation.findByPk(id),
             getAvailableRoomsByDate: async (_, {checkIn, checkOut}) => {
                 const checkInDate = new Date(checkIn);
-                const checkOutDate = new D
+                const checkOutDate = new Date(checkOut);
+                const rows = await db.Res
