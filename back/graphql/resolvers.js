@@ -15,4 +15,5 @@ const resolvers = {
                 const checkOutDate = new Date(checkOut);
                 const rows = await db.Reservation.findAll({
                     attributes: ['id'],
-   
+                    where: {
+                     
