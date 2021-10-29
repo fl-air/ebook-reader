@@ -22,4 +22,6 @@ const resolvers = {
                                     {checkin: {[lte]: checkInDate}},
                                     {checkin: {[lte]: checkOutDate}}
                                 ]
-                 
+                            },
+                            {
+        
