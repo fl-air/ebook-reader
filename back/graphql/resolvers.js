@@ -26,4 +26,5 @@ const resolvers = {
                             {
                                 [or]: [
                                     {checkOut: {[gte]: checkInDate}},
-                  
+                                    {checkOut: {[gte]: checkOutDate}}
+ 
