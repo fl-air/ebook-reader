@@ -30,4 +30,7 @@ const resolvers = {
                                 ]
                             }
                         ]
-              
+                    }
+                });
+
+                return db.Room
