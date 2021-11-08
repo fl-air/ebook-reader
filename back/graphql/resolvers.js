@@ -33,4 +33,5 @@ const resolvers = {
                     }
                 });
 
-                return db.Room
+                return db.Room.findAll({
+                    include: [{model: db.Reservation}],
