@@ -35,3 +35,5 @@ const resolvers = {
 
                 return db.Room.findAll({
                     include: [{model: db.Reservation}],
+                    where: {
+                    
