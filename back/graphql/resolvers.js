@@ -37,4 +37,7 @@ const resolvers = {
                     include: [{model: db.Reservation}],
                     where: {
                         id: {[notIn]: rows.map(row => row.id)}
-             
+                    }
+                });
+            },
+            
