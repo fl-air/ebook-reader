@@ -36,4 +36,5 @@ const resolvers = {
                 return db.Room.findAll({
                     include: [{model: db.Reservation}],
                     where: {
-                    
+                        id: {[notIn]: rows.map(row => row.id)}
+             
