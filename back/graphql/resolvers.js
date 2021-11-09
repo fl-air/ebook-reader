@@ -40,4 +40,4 @@ const resolvers = {
                     }
                 });
             },
-            
+            getAvailableRoomsByCapacity: (_, {capacity}) => db.Room.find
