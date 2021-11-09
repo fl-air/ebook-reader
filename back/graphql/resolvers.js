@@ -42,4 +42,7 @@ const resolvers = {
             },
             getAvailableRoomsByCapacity: (_, {capacity}) => db.Room.findAll({
                 where: {
-                    capacity:
+                    capacity: {[gte]: capacity}
+                }
+            }),
+ 
