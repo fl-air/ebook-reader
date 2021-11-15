@@ -45,4 +45,4 @@ const resolvers = {
                     capacity: {[gte]: capacity}
                 }
             }),
- 
+            getAvailableRoomsByPrice: async (_, {minPrice, maxP
