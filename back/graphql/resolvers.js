@@ -45,4 +45,5 @@ const resolvers = {
                     capacity: {[gte]: capacity}
                 }
             }),
-            getAvailableRoomsByPrice: async (_, {minPrice, maxP
+            getAvailableRoomsByPrice: async (_, {minPrice, maxPrice}) => {
+                const rows = await db.R
