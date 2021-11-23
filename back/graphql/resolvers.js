@@ -46,4 +46,5 @@ const resolvers = {
                 }
             }),
             getAvailableRoomsByPrice: async (_, {minPrice, maxPrice}) => {
-                const rows = await db.R
+                const rows = await db.Reservation.findAll({
+                    attributes: ['
