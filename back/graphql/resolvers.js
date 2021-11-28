@@ -50,4 +50,6 @@ const resolvers = {
                     attributes: ['id']
                 });
 
-                ret
+                return db.Room.findAll({
+                    where: {
+   
