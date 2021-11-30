@@ -52,4 +52,5 @@ const resolvers = {
 
                 return db.Room.findAll({
                     where: {
-   
+                        [and]: [
+                            {id:
