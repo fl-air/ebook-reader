@@ -53,4 +53,5 @@ const resolvers = {
                 return db.Room.findAll({
                     where: {
                         [and]: [
-                            {id:
+                            {id: {[notIn]: rows.map(row => row.id)}},
+                      
