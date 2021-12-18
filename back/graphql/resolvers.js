@@ -62,4 +62,6 @@ const resolvers = {
             }
         },
         Mutation: {
-            createUser: (_, {facebookId, displayName}) => d
+            createUser: (_, {facebookId, displayName}) => db.User.create({
+                facebookId,
+   
