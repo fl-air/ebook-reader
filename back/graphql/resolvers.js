@@ -62,3 +62,4 @@ const resolvers = {
             }
         },
         Mutation: {
+            createUser: (_, {facebookId, displayName}) => d
