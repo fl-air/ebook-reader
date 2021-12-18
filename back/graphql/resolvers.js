@@ -55,4 +55,7 @@ const resolvers = {
                         [and]: [
                             {id: {[notIn]: rows.map(row => row.id)}},
                             {price: {[between]: [minPrice, maxPrice]}}
+                        ]
+
+                    }
        
