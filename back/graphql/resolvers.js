@@ -66,4 +66,4 @@ const resolvers = {
                 facebookId,
                 displayName
             }),
-            crea
+            createRoom: (_, {image, type, title, location, price, capacity, showe
