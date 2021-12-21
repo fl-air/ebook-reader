@@ -67,4 +67,7 @@ const resolvers = {
                 displayName
             }),
             createRoom: (_, {image, type, title, location, price, capacity, showerRoom, options, host}) => db.Room.create({
-                im
+                image,
+                type,
+                title,
+                
