@@ -66,4 +66,5 @@ const resolvers = {
                 facebookId,
                 displayName
             }),
-            createRoom: (_, {image, type, title, location, price, capacity, showe
+            createRoom: (_, {image, type, title, location, price, capacity, showerRoom, options, host}) => db.Room.create({
+                im
