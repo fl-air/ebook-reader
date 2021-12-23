@@ -75,4 +75,6 @@ const resolvers = {
                 capacity,
                 showerRoom,
                 options,
-      
+                host
+            }),
+            createReservation: (_, 
