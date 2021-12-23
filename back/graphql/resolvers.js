@@ -72,4 +72,7 @@ const resolvers = {
                 title,
                 location,
                 price,
-                capaci
+                capacity,
+                showerRoom,
+                options,
+      
