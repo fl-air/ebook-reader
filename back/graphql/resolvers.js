@@ -70,4 +70,6 @@ const resolvers = {
                 image,
                 type,
                 title,
-                
+                location,
+                price,
+                capaci
