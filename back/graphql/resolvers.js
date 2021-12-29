@@ -77,4 +77,4 @@ const resolvers = {
                 options,
                 host
             }),
-            createReservation: (_, 
+            createReservation: (_, {checkIn, checkOut, guest, roomId}) => db.Reservation.crea
