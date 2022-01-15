@@ -82,4 +82,6 @@ const resolvers = {
                 checkOut,
                 guest,
                 roomId
-            })
+            }),
+            deleteUser: (_, {id}) => db.User.destroy({
+  
