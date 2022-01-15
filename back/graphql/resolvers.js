@@ -79,4 +79,7 @@ const resolvers = {
             }),
             createReservation: (_, {checkIn, checkOut, guest, roomId}) => db.Reservation.create({
                 checkIn,
-                checkOut
+                checkOut,
+                guest,
+                roomId
+            })
