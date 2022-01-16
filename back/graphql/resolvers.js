@@ -84,4 +84,7 @@ const resolvers = {
                 roomId
             }),
             deleteUser: (_, {id}) => db.User.destroy({
-  
+                where: {
+                    id
+                }
+     
