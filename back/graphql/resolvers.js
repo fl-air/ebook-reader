@@ -91,4 +91,6 @@ const resolvers = {
             deleteRoom: (_, {id}) => db.Room.destroy({
                 where: {
                     id
-  
+                }
+            }),
+            deleteRe
