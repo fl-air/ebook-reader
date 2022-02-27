@@ -93,4 +93,5 @@ const resolvers = {
                     id
                 }
             }),
-            deleteRe
+            deleteReservation: (_, {id}) => db.Reservation.destroy({
+      
