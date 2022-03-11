@@ -101,3 +101,5 @@ const resolvers = {
         }
     }
 ;
+
+export {resolvers};
