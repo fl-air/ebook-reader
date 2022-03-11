@@ -22,3 +22,31 @@ type Room {
 
 type Reservation {
     id: Int!,
+    checkIn: Date!,
+    checkOut: Date!,
+    guest: Int!,
+    roomId: Int!
+}
+
+type Query {
+    getUsers: [User],
+    getUserById(id: Int!): User,
+    getRooms: [Room],
+    getRoomById(id: Int!): Room,
+    getReservations: [Reservation],
+    getReservationById(id: Int!): Reservation,
+    getAvailableRoomsByDate(checkIn: Date!, checkOut: Date!): [Room],
+    getAvailableRoomsByCapacity(capacity: Int!): [Room],
+    getAvailableRoomsByPrice(minPrice: Int!, maxPrice: Int!): [Room]
+}
+
+type Mutation {
+    # create
+    createUser(facebookId:String!, displayName:String!): User,
+    createRoom(image:String, type:Int!, title:String!, location:String!, price:Int!, capacity:Int!, showerRoom:Int!, options:Int!, host:Int!): Room
+    createReservation(checkIn: Date, checkOut:Date, guest:Int!, roomId:Int!): Reservation
+    # delete
+    deleteUser(id:Int!): Int,
+    deleteRoom(id:Int!): Int,
+    deleteReservation(id:Int!): Int
+}
