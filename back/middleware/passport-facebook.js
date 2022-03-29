@@ -8,4 +8,9 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser((user, done) => {
-    console.log('de
+    console.log('deserializeUser');
+    done(null, user);
+});
+
+// 로그인
+passpor
