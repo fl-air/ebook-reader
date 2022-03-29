@@ -7,4 +7,5 @@ passport.serializeUser((user, done) => {
     done(null, user);
 });
 
-pass
+passport.deserializeUser((user, done) => {
+    console.log('de
