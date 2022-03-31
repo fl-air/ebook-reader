@@ -13,4 +13,6 @@ passport.deserializeUser((user, done) => {
 });
 
 // 로그인
-passpor
+passport.use(
+    'facebookLogin',
+    new FacebookStrategy(
