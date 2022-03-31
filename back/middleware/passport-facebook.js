@@ -16,3 +16,5 @@ passport.deserializeUser((user, done) => {
 passport.use(
     'facebookLogin',
     new FacebookStrategy(
+        {
+            clientID: process.env.FACEBOOK_CLI
