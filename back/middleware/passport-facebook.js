@@ -17,4 +17,5 @@ passport.use(
     'facebookLogin',
     new FacebookStrategy(
         {
-            clientID: process.env.FACEBOOK_CLI
+            clientID: process.env.FACEBOOK_CLIENT_ID,
+            clientSecret: process.env.FAC
