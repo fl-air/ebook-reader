@@ -30,4 +30,7 @@ passport.use(
                     facebookId: profile.id,
                     displayName: profile.displayName
                 }
-          
+            });
+            return cb(null, profile);
+        }
+   
