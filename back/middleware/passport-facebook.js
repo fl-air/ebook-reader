@@ -24,4 +24,6 @@ passport.use(
         async function (accessToken, refreshToken, profile, cb) {
             const result = await db.User.findOrCreate({
                 where: {
-                    facebookI
+                    facebookId: profile.id
+                },
+                defaults:
