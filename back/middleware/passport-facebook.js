@@ -26,4 +26,6 @@ passport.use(
                 where: {
                     facebookId: profile.id
                 },
-                defaults:
+                defaults: {
+                    facebookId: profile.id,
+                   
