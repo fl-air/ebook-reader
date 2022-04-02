@@ -28,4 +28,6 @@ passport.use(
                 },
                 defaults: {
                     facebookId: profile.id,
-                   
+                    displayName: profile.displayName
+                }
+          
