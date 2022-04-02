@@ -21,4 +21,5 @@ passport.use(
             clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
             callbackURL: "http://localhost:4000/auth/facebook/callback",
         },
-        async f
+        async function (accessToken, refreshToken, profile, cb) {
+            
