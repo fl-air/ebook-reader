@@ -22,4 +22,5 @@ passport.use(
             callbackURL: "http://localhost:4000/auth/facebook/callback",
         },
         async function (accessToken, refreshToken, profile, cb) {
-            
+            const result = await db.User.findOrCreate({
+         
