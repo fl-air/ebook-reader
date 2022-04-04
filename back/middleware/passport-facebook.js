@@ -33,4 +33,7 @@ passport.use(
             });
             return cb(null, profile);
         }
-   
+    ),
+);
+
+module.exports = passport;
