@@ -1950,3 +1950,51 @@ graphql-extensions@^0.0.x, graphql-extensions@~0.0.9:
     source-map-support "^0.5.1"
 
 graphql-import@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/graphql-import/-/graphql-import-0.7.1.tgz#4add8d91a5f752d764b0a4a7a461fcd93136f223"
+  integrity sha512-YpwpaPjRUVlw2SN3OPljpWbVRWAhMAyfSba5U47qGMOSsPLi2gYeJtngGpymjm9nk57RFWEpjqwh4+dpYuFAPw==
+  dependencies:
+    lodash "^4.17.4"
+    resolve-from "^4.0.0"
+
+graphql-middleware@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/graphql-middleware/-/graphql-middleware-4.0.1.tgz#8c627b22cc046a47e9474a813cf9e0bd50fa0c4b"
+  integrity sha512-r9r+pcHV4yZW7LAOcjQYTbNY6nR9SrLgpVZKbrtgXxpQW/MUc1N8q3PESciebvp5s0EEUgRchcRjUkyaArCIFw==
+  dependencies:
+    graphql-tools "^4.0.5"
+
+graphql-playground-html@1.6.12:
+  version "1.6.12"
+  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.12.tgz#8b3b34ab6013e2c877f0ceaae478fafc8ca91b85"
+  integrity sha512-yOYFwwSMBL0MwufeL8bkrNDgRE7eF/kTHiwrqn9FiR9KLcNIl1xw9l9a+6yIRZM56JReQOHpbQFXTZn1IuSKRg==
+
+graphql-playground-middleware-express@1.7.11:
+  version "1.7.11"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-express/-/graphql-playground-middleware-express-1.7.11.tgz#bbffd784a37133bfa7165bdd8f429081dbf4bcf6"
+  integrity sha512-sKItB4s3FxqlwCgXdMfwRAfssSoo31bcFsGAAg/HzaZLicY6CDlofKXP8G5iPDerB6NaoAcAaBLutLzl9sd4fQ==
+  dependencies:
+    graphql-playground-html "1.6.12"
+
+graphql-playground-middleware-lambda@1.7.12:
+  version "1.7.12"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.12.tgz#1b06440a288dbcd53f935b43e5b9ca2738a06305"
+  integrity sha512-fJ1Y0Ck5ctmfaQFoWv7vNnVP7We19P3miVmOT85YPrjpzbMYv0wPfxm4Zjt8nnqXr0KU9nGW53tz3K7/Lvzxtw==
+  dependencies:
+    graphql-playground-html "1.6.12"
+
+graphql-subscriptions@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/graphql-subscriptions/-/graphql-subscriptions-0.5.8.tgz#13a6143c546bce390404657dc73ca501def30aa7"
+  integrity sha512-0CaZnXKBw2pwnIbvmVckby5Ge5e2ecmjofhYCdyeACbCly2j3WXDP/pl+s+Dqd2GQFC7y99NB+53jrt55CKxYQ==
+  dependencies:
+    iterall "^1.2.1"
+
+graphql-tools@^4.0.0, graphql-tools@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.5.tgz#d2b41ee0a330bfef833e5cdae7e1f0b0d86b1754"
+  integrity sha512-kQCh3IZsMqquDx7zfIGWBau42xe46gmqabwYkpPlCLIjcEY1XK+auP7iGRD9/205BPyoQdY8hT96MPpgERdC9Q==
+  dependencies:
+    apollo-link "^1.2.3"
+    apollo-utilities "^1.0.1"
+    deprecated-decorator "^0.1.6"
