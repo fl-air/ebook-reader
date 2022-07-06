@@ -57,4 +57,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 
 ### Advanced Configuration
 
-This section has m
+This section has moved here: https://facebook.github.io/create-react-app/docs/adv
