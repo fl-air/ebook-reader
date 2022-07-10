@@ -1,4 +1,7 @@
 import ApolloClient from 'apollo-boost';
 
 const client = new ApolloClient({
-    uri: 'http://localhost:400
+    uri: 'http://localhost:4000/gql',
+});
+
+export default client;
