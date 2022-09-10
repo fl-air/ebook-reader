@@ -3,4 +3,5 @@ import FilterButton from "./FilterButton";
 import style from '../stylesheet/FilterBar.module.css';
 import {FilterContext} from "./context/FilterContext";
 import {QueryContext} from "./context/QueryContext";
-import dateFilterReducerWrapper from '../utils/dateFilterReducer
+import dateFilterReducerWrapper from '../utils/dateFilterReducer';
+import capacityFilterReducerWrapper from "../utils/capacity
