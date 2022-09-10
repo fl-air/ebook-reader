@@ -5,4 +5,5 @@ import {FilterContext} from "./context/FilterContext";
 import {QueryContext} from "./context/QueryContext";
 import dateFilterReducerWrapper from '../utils/dateFilterReducer';
 import capacityFilterReducerWrapper from "../utils/capacityFilterReducer";
-import priceFilterReducerWrapper from ".
+import priceFilterReducerWrapper from "../utils/priceFilterReducer";
+import DateFilter from "./filter/Date
