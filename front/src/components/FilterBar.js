@@ -7,4 +7,5 @@ import dateFilterReducerWrapper from '../utils/dateFilterReducer';
 import capacityFilterReducerWrapper from "../utils/capacityFilterReducer";
 import priceFilterReducerWrapper from "../utils/priceFilterReducer";
 import DateFilter from "./filter/DateFilter";
-import CapacityFilter from "./filter/CapacityFi
+import CapacityFilter from "./filter/CapacityFilter";
+import PriceFilter from "./filter/PriceFilter"
