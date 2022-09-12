@@ -12,4 +12,5 @@ import PriceFilter from "./filter/PriceFilter";
 
 
 function FilterBar() {
-    // 쿼리 결과를 공유하기 위해 QueryConte
+    // 쿼리 결과를 공유하기 위해 QueryContext를 사용한다
+    const {state, dispatch} = useContext(QueryContext)
