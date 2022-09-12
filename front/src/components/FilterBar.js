@@ -8,4 +8,8 @@ import capacityFilterReducerWrapper from "../utils/capacityFilterReducer";
 import priceFilterReducerWrapper from "../utils/priceFilterReducer";
 import DateFilter from "./filter/DateFilter";
 import CapacityFilter from "./filter/CapacityFilter";
-import PriceFilter from "./filter/PriceFilter"
+import PriceFilter from "./filter/PriceFilter";
+
+
+function FilterBar() {
+    // 쿼리 결과를 공유하기 위해 QueryConte
