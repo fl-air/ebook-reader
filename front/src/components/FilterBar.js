@@ -16,4 +16,4 @@ function FilterBar() {
     const {state, dispatch} = useContext(QueryContext);
     // 필터 별 리듀서를 사용한다
     const {initialDate, dateFilterReducer} = dateFilterReducerWrapper(dispatch);
-    const [dateFil
+    const [dateFilterState, dateFilterDispatch] = useReducer(dateFilterRed
