@@ -17,4 +17,5 @@ function FilterBar() {
     // 필터 별 리듀서를 사용한다
     const {initialDate, dateFilterReducer} = dateFilterReducerWrapper(dispatch);
     const [dateFilterState, dateFilterDispatch] = useReducer(dateFilterReducer, initialDate);
-    const {initialCapacity, capacityFilterReducer} = capacityFilterReducerWrapper(d
+    const {initialCapacity, capacityFilterReducer} = capacityFilterReducerWrapper(dispatch);
+    const [capacityFilterState, capacityFilterD
