@@ -18,4 +18,4 @@ function FilterBar() {
     const {initialDate, dateFilterReducer} = dateFilterReducerWrapper(dispatch);
     const [dateFilterState, dateFilterDispatch] = useReducer(dateFilterReducer, initialDate);
     const {initialCapacity, capacityFilterReducer} = capacityFilterReducerWrapper(dispatch);
-    const [capacityFilterState, capacityFilterD
+    const [capacityFilterState, capacityFilterDispatch] = useReducer(capacityFilterReducer, initialCapacity);
