@@ -19,4 +19,5 @@ function FilterBar() {
     const [dateFilterState, dateFilterDispatch] = useReducer(dateFilterReducer, initialDate);
     const {initialCapacity, capacityFilterReducer} = capacityFilterReducerWrapper(dispatch);
     const [capacityFilterState, capacityFilterDispatch] = useReducer(capacityFilterReducer, initialCapacity);
-    const {initialPrice, priceFilterReducer} = priceFilterReducerWrapper
+    const {initialPrice, priceFilterReducer} = priceFilterReducerWrapper(dispatch);
+    const [priceFilterState, priceFil
