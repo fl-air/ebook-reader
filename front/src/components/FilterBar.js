@@ -20,4 +20,4 @@ function FilterBar() {
     const {initialCapacity, capacityFilterReducer} = capacityFilterReducerWrapper(dispatch);
     const [capacityFilterState, capacityFilterDispatch] = useReducer(capacityFilterReducer, initialCapacity);
     const {initialPrice, priceFilterReducer} = priceFilterReducerWrapper(dispatch);
-    const [priceFilterState, priceFil
+    const [priceFilterState, priceFilterDispatch] = useReducer(priceFilterReducer, initialPrice);
