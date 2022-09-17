@@ -21,3 +21,6 @@ function FilterBar() {
     const [capacityFilterState, capacityFilterDispatch] = useReducer(capacityFilterReducer, initialCapacity);
     const {initialPrice, priceFilterReducer} = priceFilterReducerWrapper(dispatch);
     const [priceFilterState, priceFilterDispatch] = useReducer(priceFilterReducer, initialPrice);
+
+    return (
+        <nav style={style} className={style.Filte
