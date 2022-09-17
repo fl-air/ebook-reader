@@ -23,4 +23,6 @@ function FilterBar() {
     const [priceFilterState, priceFilterDispatch] = useReducer(priceFilterReducer, initialPrice);
 
     return (
-        <nav style={style} className={style.Filte
+        <nav style={style} className={style.FilterBar}>
+            <FilterContext.Provider
+             
