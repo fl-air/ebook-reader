@@ -25,4 +25,5 @@ function FilterBar() {
     return (
         <nav style={style} className={style.FilterBar}>
             <FilterContext.Provider
-                value={{state: dateFilterState, dispatch: dateFilterDispatch
+                value={{state: dateFilterState, dispatch: dateFilterDispatch, initData: initialDate}}>
+                <FilterB
