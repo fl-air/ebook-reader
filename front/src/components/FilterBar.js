@@ -29,4 +29,5 @@ function FilterBar() {
                 <FilterButton filtertype={"date"}><DateFilter/></FilterButton>
             </FilterContext.Provider>
             <FilterContext.Provider
-                value={{state: capacityFilterState, dispatch: capacityFilterDispatch, initData: init
+                value={{state: capacityFilterState, dispatch: capacityFilterDispatch, initData: initialCapacity}}>
+                <FilterButton filtertype={"capacity"}><C
