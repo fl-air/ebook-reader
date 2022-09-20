@@ -33,4 +33,4 @@ function FilterBar() {
                 <FilterButton filtertype={"capacity"}><CapacityFilter/></FilterButton>
             </FilterContext.Provider>
             <FilterContext.Provider
-         
+                value={{state: priceFilterState, dispatch: priceF
