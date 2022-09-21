@@ -35,4 +35,9 @@ function FilterBar() {
             <FilterContext.Provider
                 value={{state: priceFilterState, dispatch: priceFilterDispatch, initData: initialPrice}}>
                 <FilterButton filtertype={"price"}><PriceFilter/></FilterButton>
-      
+            </FilterContext.Provider>
+        </nav>
+    );
+}
+
+ex
