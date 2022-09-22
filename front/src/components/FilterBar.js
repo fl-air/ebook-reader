@@ -40,4 +40,4 @@ function FilterBar() {
     );
 }
 
-ex
+export default FilterBar;
