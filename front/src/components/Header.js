@@ -4,4 +4,6 @@ import {Link} from "react-router-dom";
 
 function Header() {
     return (
-        <section style={style}
+        <section style={style} className={style.Header}>
+            <div>
+                <L
