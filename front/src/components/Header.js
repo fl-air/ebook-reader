@@ -6,4 +6,5 @@ function Header() {
     return (
         <section style={style} className={style.Header}>
             <div>
-                <L
+                <Link to="/">
+                    <svg viewBox={'0 0 1000
