@@ -7,4 +7,5 @@ function Header() {
         <section style={style} className={style.Header}>
             <div>
                 <Link to="/">
-                    <svg viewBox={'0 0 1000 1000'} role={'presentation'} aria-hidden={true} focus
+                    <svg viewBox={'0 0 1000 1000'} role={'presentation'} aria-hidden={true} focusable={false}
+                         className={style.
