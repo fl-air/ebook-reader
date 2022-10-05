@@ -18,4 +18,8 @@ function Header() {
                 <Link to="/auth/facebook" className={style.link}>login</Link>
                 <a href={"http://localhost:4000/auth/facebook"}>login2</a>
             </div>
-     
+        </section>
+    );
+}
+
+export default Header;
