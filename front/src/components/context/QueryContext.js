@@ -1,3 +1,5 @@
 import React, {createContext} from 'react';
 
-cons
+const QueryContext = createContext(); // Context 를 만듭니다.
+
+e
