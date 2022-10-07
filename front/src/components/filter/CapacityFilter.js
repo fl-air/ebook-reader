@@ -1,2 +1,3 @@
 import React, {useContext} from 'react';
-import {Filter
+import {FilterContext} from "../context/FilterContext";
+import style 
