@@ -5,4 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMinus, faPlus} from '@fortawesome/free-solid-svg-icons'
 
 function CapacityFilter() {
-    const {state, dispatch} = 
+    const {state, dispatch} = useContext(FilterContext);
+
+    function dispatchAdult(gap) {
+    
