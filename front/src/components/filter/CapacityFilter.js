@@ -8,4 +8,8 @@ function CapacityFilter() {
     const {state, dispatch} = useContext(FilterContext);
 
     function dispatchAdult(gap) {
-        return () => dispatch({type: 'adult', payload:
+        return () => dispatch({type: 'adult', payload: gap});
+    }
+
+    function dispatchTeenager(gap) {
+        re
