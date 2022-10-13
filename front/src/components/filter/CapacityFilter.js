@@ -16,4 +16,7 @@ function CapacityFilter() {
     }
 
     function dispatchToddler(gap) {
-        return () 
+        return () => dispatch({type: 'toddler', payload: gap});
+    }
+
+    return
