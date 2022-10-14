@@ -21,4 +21,5 @@ function CapacityFilter() {
 
     return (
         <div style={style}>
-            <s
+            <section className={style.itemContainer}>
+                <sp
