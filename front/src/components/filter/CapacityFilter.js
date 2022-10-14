@@ -22,4 +22,5 @@ function CapacityFilter() {
     return (
         <div style={style}>
             <section className={style.itemContainer}>
-                <sp
+                <span>adult</span>
+                <div className={style.controllerCo
