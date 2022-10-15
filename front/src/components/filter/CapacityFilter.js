@@ -24,4 +24,5 @@ function CapacityFilter() {
             <section className={style.itemContainer}>
                 <span>adult</span>
                 <div className={style.controllerContainer}>
-                    <FontAwesomeIcon icon={faPlus} si
+                    <FontAwesomeIcon icon={faPlus} size={'lg'} onClick={dispatchAdult(1)}/>
+                    {state.
