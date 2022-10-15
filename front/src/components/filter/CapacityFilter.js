@@ -23,4 +23,5 @@ function CapacityFilter() {
         <div style={style}>
             <section className={style.itemContainer}>
                 <span>adult</span>
-                <div className={style.controllerCo
+                <div className={style.controllerContainer}>
+                    <FontAwesomeIcon icon={faPlus} si
