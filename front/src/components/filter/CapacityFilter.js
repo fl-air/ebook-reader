@@ -27,4 +27,6 @@ function CapacityFilter() {
                     <FontAwesomeIcon icon={faPlus} size={'lg'} onClick={dispatchAdult(1)}/>
                     {state.adult}
                     <FontAwesomeIcon icon={faMinus} size={'lg'} onClick={dispatchAdult(-1)}/>
-      
+                </div>
+            </section>
+            <section c
