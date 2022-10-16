@@ -29,4 +29,5 @@ function CapacityFilter() {
                     <FontAwesomeIcon icon={faMinus} size={'lg'} onClick={dispatchAdult(-1)}/>
                 </div>
             </section>
-            <section c
+            <section className={style.itemContainer}>
+                <span>teenager</s
