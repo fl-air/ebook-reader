@@ -31,4 +31,5 @@ function CapacityFilter() {
             </section>
             <section className={style.itemContainer}>
                 <span>teenager</span>
-                <div className={style.controllerContain
+                <div className={style.controllerContainer}>
+                    <FontAwesomeIcon icon={
