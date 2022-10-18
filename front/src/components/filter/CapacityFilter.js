@@ -34,4 +34,4 @@ function CapacityFilter() {
                 <div className={style.controllerContainer}>
                     <FontAwesomeIcon icon={faPlus} size={'lg'} onClick={dispatchTeenager(1)}/>
                     {state.teenager}
-                    <F
+                    <FontAwesomeIcon icon={faMinus} size={'lg'} onClick={
