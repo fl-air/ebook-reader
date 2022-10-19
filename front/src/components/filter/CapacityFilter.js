@@ -36,4 +36,6 @@ function CapacityFilter() {
                     {state.teenager}
                     <FontAwesomeIcon icon={faMinus} size={'lg'} onClick={dispatchTeenager(-1)}/>
                 </div>
-            </section
+            </section>
+            <section className={style.itemContainer}>
+          
