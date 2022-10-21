@@ -41,3 +41,5 @@ function CapacityFilter() {
                 <span>toddler</span>
                 <div className={style.controllerContainer}>
                     <FontAwesomeIcon icon={faPlus} size={'lg'} onClick={dispatchToddler(1)}/>
+                    {state.toddler}
+                    <FontAwes
