@@ -44,4 +44,9 @@ function CapacityFilter() {
                     {state.toddler}
                     <FontAwesomeIcon icon={faMinus} size={'lg'} onClick={dispatchToddler(-1)}/>
                 </div>
-            </se
+            </section>
+        </div>
+    );
+}
+
+export default Capacity
