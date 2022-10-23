@@ -49,4 +49,4 @@ function CapacityFilter() {
     );
 }
 
-export default Capacity
+export default CapacityFilter;
