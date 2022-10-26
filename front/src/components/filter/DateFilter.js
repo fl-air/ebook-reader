@@ -3,4 +3,6 @@ import moment from 'moment'
 import {DayPickerRangeController, isInclusivelyBeforeDay} from "react-dates";
 import 'react-dates/lib/css/_datepicker.css';
 import 'react-dates/initialize';
-import {Filte
+import {FilterContext} from "../context/FilterContext";
+
+function DateF
