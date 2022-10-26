@@ -8,4 +8,5 @@ import {FilterContext} from "../context/FilterContext";
 function DateFilter(props) {
     const {state, dispatch} = useContext(FilterContext);
 
-    co
+    const [startDate, setStartDate] = useState(null);
+    const 
