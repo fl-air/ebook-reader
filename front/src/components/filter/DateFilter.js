@@ -5,4 +5,7 @@ import 'react-dates/lib/css/_datepicker.css';
 import 'react-dates/initialize';
 import {FilterContext} from "../context/FilterContext";
 
-function DateF
+function DateFilter(props) {
+    const {state, dispatch} = useContext(FilterContext);
+
+    co
