@@ -9,4 +9,5 @@ function DateFilter(props) {
     const {state, dispatch} = useContext(FilterContext);
 
     const [startDate, setStartDate] = useState(null);
-    const 
+    const [endDate, setEndDate] = useState(null);
+    const [focusedInp
