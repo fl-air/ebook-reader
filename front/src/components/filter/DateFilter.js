@@ -10,4 +10,4 @@ function DateFilter(props) {
 
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
-    const [focusedInp
+    const [focusedInput, setFocusedInput] = useState("startDat
