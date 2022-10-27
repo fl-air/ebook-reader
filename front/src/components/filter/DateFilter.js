@@ -10,4 +10,7 @@ function DateFilter(props) {
 
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
-    const [focusedInput, setFocusedInput] = useState("startDat
+    const [focusedInput, setFocusedInput] = useState("startDate");
+
+    return (
+        <DayPickerRangeController
