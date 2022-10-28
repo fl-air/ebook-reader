@@ -17,4 +17,5 @@ function DateFilter(props) {
             startDate={startDate}
             endDate={endDate}
             // 모름
-            onDatesChange={({s
+            onDatesChange={({startDate, endDate}) => {
+                setStartDate(start
