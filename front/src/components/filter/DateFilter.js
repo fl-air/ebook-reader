@@ -18,4 +18,6 @@ function DateFilter(props) {
             endDate={endDate}
             // 모름
             onDatesChange={({startDate, endDate}) => {
-                setStartDate(start
+                setStartDate(startDate);
+                setEndDate(endDate);
+          
