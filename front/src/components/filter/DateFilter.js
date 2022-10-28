@@ -15,4 +15,6 @@ function DateFilter(props) {
     return (
         <DayPickerRangeController
             startDate={startDate}
-            endDat
+            endDate={endDate}
+            // 모름
+            onDatesChange={({s
