@@ -23,4 +23,7 @@ function DateFilter(props) {
                 dispatch({type: 'date', payload: {checkIn: startDate, checkOut: endDate}});
             }
             }
-            // 모
+            // 모름
+            focusedInput={focusedInput}
+            // 모름
+        
