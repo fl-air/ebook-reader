@@ -20,4 +20,4 @@ function DateFilter(props) {
             onDatesChange={({startDate, endDate}) => {
                 setStartDate(startDate);
                 setEndDate(endDate);
-          
+                dispatch({type: 'date', payload: {checkIn: startDate, checkOut
