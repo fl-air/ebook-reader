@@ -27,4 +27,5 @@ function DateFilter(props) {
             focusedInput={focusedInput}
             // 모름
             onFocusChange={focusedInput => {
-               
+                setFocusedInput(focusedInput || "startDate");
+            
