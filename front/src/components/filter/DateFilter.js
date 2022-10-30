@@ -28,4 +28,6 @@ function DateFilter(props) {
             // 모름
             onFocusChange={focusedInput => {
                 setFocusedInput(focusedInput || "startDate");
-            
+            }}
+            // 지난 날짜 disable
+            isOutsi
