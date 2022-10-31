@@ -30,4 +30,6 @@ function DateFilter(props) {
                 setFocusedInput(focusedInput || "startDate");
             }}
             // 지난 날짜 disable
-            isOutsideRange={day => isInclusivelyBeforeDay(day,
+            isOutsideRange={day => isInclusivelyBeforeDay(day, moment().add(-1, 'days'))}
+            // 2달 씩 표시
+   
