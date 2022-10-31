@@ -32,4 +32,9 @@ function DateFilter(props) {
             // 지난 날짜 disable
             isOutsideRange={day => isInclusivelyBeforeDay(day, moment().add(-1, 'days'))}
             // 2달 씩 표시
-   
+            numberOfMonths={2}
+        />
+    );
+}
+
+export defa
