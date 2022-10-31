@@ -37,4 +37,4 @@ function DateFilter(props) {
     );
 }
 
-export defa
+export default DateFilter;
