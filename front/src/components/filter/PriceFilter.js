@@ -1,3 +1,4 @@
 import React, {useContext, useState} from 'react';
 import {Slider} from '@material-ui/core';
-import style from '../../stylesheet/PriceFilter.modul
+import style from '../../stylesheet/PriceFilter.module.css';
+import {FilterContext} from "../conte
