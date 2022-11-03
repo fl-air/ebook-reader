@@ -4,4 +4,5 @@ import style from '../../stylesheet/PriceFilter.module.css';
 import {FilterContext} from "../context/FilterContext";
 
 function PriceFilter(props) {
-    const 
+    const {state, dispatch} = useContext(FilterContext);
+    const ini
