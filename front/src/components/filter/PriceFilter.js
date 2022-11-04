@@ -6,4 +6,6 @@ import {FilterContext} from "../context/FilterContext";
 function PriceFilter(props) {
     const {state, dispatch} = useContext(FilterContext);
     const initPrice = [0, 100000];
-    const [priceState, setPriceState] = us
+    const [priceState, setPriceState] = useState(initPrice);
+
+    function valuetext(valu
