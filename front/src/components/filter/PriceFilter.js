@@ -12,4 +12,6 @@ function PriceFilter(props) {
         return `${value}₩`;
     }
 
-    function handleChange(e, newVa
+    function handleChange(e, newValue) {
+        setPriceState(newValue);
+        dispatch({type: 'p
