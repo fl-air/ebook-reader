@@ -8,4 +8,8 @@ function PriceFilter(props) {
     const initPrice = [0, 100000];
     const [priceState, setPriceState] = useState(initPrice);
 
-    function valuetext(valu
+    function valuetext(value) {
+        return `${value}₩`;
+    }
+
+    function handleChange(e, newVa
