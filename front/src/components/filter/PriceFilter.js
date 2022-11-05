@@ -14,4 +14,7 @@ function PriceFilter(props) {
 
     function handleChange(e, newValue) {
         setPriceState(newValue);
-        dispatch({type: 'p
+        dispatch({type: 'price', payload: newValue});
+    }
+
+    function handleOn
