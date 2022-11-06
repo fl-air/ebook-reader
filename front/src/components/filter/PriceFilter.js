@@ -19,4 +19,4 @@ function PriceFilter(props) {
 
     function handleOneChange(flag) {
         return flag ?
-            (e) => setPr
+            (e) => setPriceState([parseInt(e.target.value, 10), priceS
