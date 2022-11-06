@@ -17,4 +17,6 @@ function PriceFilter(props) {
         dispatch({type: 'price', payload: newValue});
     }
 
-    function handleOn
+    function handleOneChange(flag) {
+        return flag ?
+            (e) => setPr
