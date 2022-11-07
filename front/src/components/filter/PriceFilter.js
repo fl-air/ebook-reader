@@ -27,4 +27,5 @@ function PriceFilter(props) {
     return (
         <>
             <Slider
-                sty
+                style={style}
+                className={style.PriceSlid
