@@ -24,4 +24,7 @@ function PriceFilter(props) {
             (e) => setPriceState([priceState[0], parseInt(e.target.value, 10)]);
     }
 
-   
+    return (
+        <>
+            <Slider
+                sty
