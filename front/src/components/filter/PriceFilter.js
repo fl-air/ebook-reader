@@ -21,4 +21,7 @@ function PriceFilter(props) {
         return flag ?
             (e) => setPriceState([parseInt(e.target.value, 10), priceState[1]])
             :
-            (e) => setPriceState(
+            (e) => setPriceState([priceState[0], parseInt(e.target.value, 10)]);
+    }
+
+   
