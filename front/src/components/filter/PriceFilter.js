@@ -28,4 +28,5 @@ function PriceFilter(props) {
         <>
             <Slider
                 style={style}
-                className={style.PriceSlid
+                className={style.PriceSlider}
+                value={[state.minPrice, sta
