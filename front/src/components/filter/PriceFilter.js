@@ -30,4 +30,5 @@ function PriceFilter(props) {
                 style={style}
                 className={style.PriceSlider}
                 value={[state.minPrice, state.maxPrice]}
-                min={init
+                min={initPrice[0]}
+                max={initPrice[1]}
