@@ -34,4 +34,5 @@ function PriceFilter(props) {
                 max={initPrice[1]}
                 marks={true}
                 step={1000}
-      
+                onChange={handleChange}
+                val
