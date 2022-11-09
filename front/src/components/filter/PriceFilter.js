@@ -35,4 +35,5 @@ function PriceFilter(props) {
                 marks={true}
                 step={1000}
                 onChange={handleChange}
-                val
+                valueLabelDisplay="auto"
+                aria-labelledby="rang
