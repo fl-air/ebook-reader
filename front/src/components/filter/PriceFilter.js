@@ -36,4 +36,5 @@ function PriceFilter(props) {
                 step={1000}
                 onChange={handleChange}
                 valueLabelDisplay="auto"
-                aria-labelledby="rang
+                aria-labelledby="range-slider"
+                getAriaValueText={val
