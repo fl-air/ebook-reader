@@ -39,4 +39,6 @@ function PriceFilter(props) {
                 aria-labelledby="range-slider"
                 getAriaValueText={valuetext}
             />
-            <input type={'number'} value={state.minPrice} onChange={handleOneChange(true)}/
+            <input type={'number'} value={state.minPrice} onChange={handleOneChange(true)}/>
+            ~
+            <input type={'number'} val
