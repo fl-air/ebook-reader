@@ -41,4 +41,4 @@ function PriceFilter(props) {
             />
             <input type={'number'} value={state.minPrice} onChange={handleOneChange(true)}/>
             ~
-            <input type={'number'} val
+            <input type={'number'} value={state.maxPrice} onChange={handleOneChange(false)}/>
