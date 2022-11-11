@@ -42,3 +42,8 @@ function PriceFilter(props) {
             <input type={'number'} value={state.minPrice} onChange={handleOneChange(true)}/>
             ~
             <input type={'number'} value={state.maxPrice} onChange={handleOneChange(false)}/>
+        </>
+    );
+}
+
+export default PriceFilter;
