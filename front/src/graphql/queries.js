@@ -57,3 +57,10 @@ const query = {
                 showerRoom,
                 options
             }
+        }
+    `
+
+};
+
+
+export default query;
