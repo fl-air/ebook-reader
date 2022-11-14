@@ -4,4 +4,5 @@ import {useQuery} from "@apollo/react-hooks";
 import queries from "../graphql/queries";
 import {QueryContext} from '../components/context/QueryContext';
 import {initialQuery, queryReducer} from "../utils/queryReducer";
-import FilterBar from "../
+import FilterBar from "../components/FilterBar";
+import RoomCardList from '../co
