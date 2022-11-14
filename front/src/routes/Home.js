@@ -5,4 +5,7 @@ import queries from "../graphql/queries";
 import {QueryContext} from '../components/context/QueryContext';
 import {initialQuery, queryReducer} from "../utils/queryReducer";
 import FilterBar from "../components/FilterBar";
-import RoomCardList from '../co
+import RoomCardList from '../components/RoomCardList'
+
+function Home() {
+    const [q
