@@ -8,4 +8,6 @@ import FilterBar from "../components/FilterBar";
 import RoomCardList from '../components/RoomCardList'
 
 function Home() {
-    const [queryState, queryDispatch] = useReducer(queryReducer, 
+    const [queryState, queryDispatch] = useReducer(queryReducer, initialQuery);
+
+    const {loading, error
