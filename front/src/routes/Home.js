@@ -11,4 +11,7 @@ function Home() {
     const [queryState, queryDispatch] = useReducer(queryReducer, initialQuery);
 
     const {loading, error, data} = useQuery(queries.getRooms);
-    if (loading) return <p>Loadin
+    if (loading) return <p>Loading...</p>;
+    if (error) return <p>Error :(</p>;
+
+    
