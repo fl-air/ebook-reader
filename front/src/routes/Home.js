@@ -14,4 +14,6 @@ function Home() {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error :(</p>;
 
-    
+    return (
+        <>
+            <h1>Home</
