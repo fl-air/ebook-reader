@@ -10,4 +10,5 @@ import RoomCardList from '../components/RoomCardList'
 function Home() {
     const [queryState, queryDispatch] = useReducer(queryReducer, initialQuery);
 
-    const {loading, error
+    const {loading, error, data} = useQuery(queries.getRooms);
+    if (loading) return <p>Loadin
