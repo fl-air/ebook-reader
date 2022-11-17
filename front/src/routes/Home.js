@@ -18,4 +18,5 @@ function Home() {
         <>
             <h1>Home</h1>
             <Link to="/">Home</Link>
-            <L
+            <Link to="/user/1">User 1</Link>
+            <QueryContext.Provid
