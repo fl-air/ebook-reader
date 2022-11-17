@@ -19,4 +19,5 @@ function Home() {
             <h1>Home</h1>
             <Link to="/">Home</Link>
             <Link to="/user/1">User 1</Link>
-            <QueryContext.Provid
+            <QueryContext.Provider value={{queryState, queryDispatch}}>
+                <FilterBar/>
