@@ -21,3 +21,4 @@ function Home() {
             <Link to="/user/1">User 1</Link>
             <QueryContext.Provider value={{queryState, queryDispatch}}>
                 <FilterBar/>
+                <RoomCardList rooms={queryState.length ? 
