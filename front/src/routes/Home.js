@@ -24,4 +24,8 @@ function Home() {
                 <RoomCardList rooms={queryState.length ? queryState : data.getRooms}/>
             </QueryContext.Provider>
 
- 
+        </>
+    );
+}
+
+export default Home;
