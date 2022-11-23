@@ -14,4 +14,9 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    col
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
