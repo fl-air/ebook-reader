@@ -7,4 +7,8 @@
     justify-content: space-between;
 }
 
-.controllerContaine
+.controllerContainer {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
