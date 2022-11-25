@@ -1,4 +1,8 @@
 .FilterButton {
     margin: 0 0.5rem;
     border-radius: 0.5rem;
-  
+    outline: none;
+}
+
+.FilterButton:hover {
+    background-color: rgba(255, 
