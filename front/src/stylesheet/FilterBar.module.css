@@ -3,4 +3,6 @@
     background-color: whitesmoke;
     margin: 1rem;
     display: flex;
-    align-items:
+    align-items: center;
+    padding: 0 1rem;
+}
