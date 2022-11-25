@@ -5,4 +5,8 @@
 }
 
 .FilterButton:hover {
-    background-color: rgba(255, 
+    background-color: rgba(255, 90, 95, 0.8);
+}
+
+.FilterButton:focus {
+    outline: none
