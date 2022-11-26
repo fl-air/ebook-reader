@@ -9,4 +9,5 @@
 }
 
 .FilterButton:focus {
-    outline: none
+    outline: none;
+}
