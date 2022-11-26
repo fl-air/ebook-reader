@@ -2,3 +2,5 @@ section.modal.show {
     display: block;
 }
 
+section.modal.non-show {
+    display: none;
