@@ -1,4 +1,9 @@
 .CardContainer {
     display: flex;
     background-color: whitesmoke;
-    height: 20r
+    height: 20rem;
+    margin: 1rem;
+}
+
+.thumbnailContainer {
+    wid
