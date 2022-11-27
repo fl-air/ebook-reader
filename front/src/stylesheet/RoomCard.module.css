@@ -6,4 +6,9 @@
 }
 
 .thumbnailContainer {
-    wid
+    width: 30rem;
+    height: 100%;
+}
+
+.thumbnail {
+    width: 100
