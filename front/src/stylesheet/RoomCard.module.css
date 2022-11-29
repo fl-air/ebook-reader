@@ -16,4 +16,6 @@
 }
 
 .roomInfoContainer {
-    width: c
+    width: calc(100% - 30rem);
+    max-height: 100%;
+    dis
