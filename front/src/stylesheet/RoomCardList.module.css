@@ -1,2 +1,4 @@
 .RoomCardList {
-    margin
+    margin: unset;
+    padding: unset;
+}
