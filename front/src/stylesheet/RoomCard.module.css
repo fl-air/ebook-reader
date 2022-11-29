@@ -18,4 +18,6 @@
 .roomInfoContainer {
     width: calc(100% - 30rem);
     max-height: 100%;
-    dis
+    display: flex;
+    flex-direction: column;
+    align-items: 
