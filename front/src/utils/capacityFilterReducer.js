@@ -30,3 +30,8 @@ function capacityFilterReducerWrapper(queryDispatch) {
                     break;
             }
         }
+    }
+}
+
+
+export default capacityFilterReducerWrapper;
