@@ -14,3 +14,7 @@ function queryReducer(state, {type, payload}) {
         }
         default:
             break;
+    }
+}
+
+export {queryReducer, initialQuery};
