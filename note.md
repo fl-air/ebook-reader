@@ -10,3 +10,7 @@
 
 ### 팀에 기여한 부분
 - passport + OAuth 적용 후기 공유
+- passport + JWT 적용 후기 공유
+
+### 어려웠던 점
+- context의 개수와 
